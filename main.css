@@ -1,0 +1,201 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+header{
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 10px;
+    background: #1A2238;
+    color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+}
+
+.logo{
+    margin-right: auto;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.logo:hover{
+    color: #FF6a3d;
+    transition: all 0.5s ease 0s;
+    transform: rotate(6deg);
+}
+
+nav ul{
+    display: flex;
+    padding: 20px;
+}
+li{
+    list-style-type: none;
+    padding: 15px;
+}
+li:hover{
+    color: #FF6a3d;
+    transition: all 0.5s ease 0s;
+    transform: rotate(-6deg);
+}
+li a:hover{
+    color: #FF6a3d;
+    transition: all 0.5s ease 0s;
+    transform: rotate(6deg);
+}
+
+a{
+    color: #eaeaea;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.title{
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.desc{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pt-img{
+    margin-top: 15px;
+    width: 100%;
+    max-width: 100px;
+    max-height: auto;
+}
+
+.paralax{
+    background-image: url('assets/python-2.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.title-about{
+    background-color: #1A2238;
+    color: #eaeaea;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    align-items: center;
+    text-align: center;
+    padding: 20px; 
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.desc-about{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    background-color: #1A2238;
+    color: #eaeaea;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.about{
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #1A2238;
+    color: #eaeaea;      
+}
+.btn-dua{
+    margin-bottom: 40px;
+    margin-right: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    background: #FF6a3d;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.ct-dua{
+    background: #1A2238;
+    color: #eaeaea;
+    border-radius: 15px;
+}
+
+.intro-dua{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.title-dua{
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.desc-dua{
+    font-size: 30px;
+}
+
+.paralax-dua{
+    background-image: url('assets/python-3.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.title-about-dua{
+    background-color: #1A2238;
+    color: #eaeaea;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    align-items: center;
+    text-align: center;
+    padding: 20px; 
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.desc-about-dua{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #1A2238;
+    color: #eaeaea;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-dua{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #1A2238;
+    color: #eaeaea;      
+}
